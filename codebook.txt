@@ -1,0 +1,419 @@
+CodeBook - smartPhoneAccelData
+
+Note - The original dataset contains multiple records of each measurement by 30 subjects carrying a smartphone during 6 physical activities. Each variable in this dataset is the average of the original variable for each record of that user performing the stated activity, hence the Mean_Of_ prefix
+
+Subject	
+	Desc:	Identifies each individual test subject.
+	Range:	1-30
+	Units:	NA
+
+Activity
+	Desc:	Identifies each activity recorded in the study.
+	Range:	LAYING
+			SITTING
+			STANDING
+			WALKING
+			WALKING_DOWNSTAIRS
+			WALKING_UPSTAIRS
+	Units:	NA
+	
+Mean_Of_tBodyAcc-mean()-X
+	Desc:	Mean of recorded time domain phone body acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+	
+Mean_Of_tBodyAcc-mean()-Y	
+	Desc:	Mean of recorded time domain phone body acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAcc-mean()-Z	
+	Desc:	Mean of recorded time domain phone body acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAcc-std()-X	
+	Desc:	Mean of the std deviation of the recorded time domain phone body acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAcc-std()-Y	
+	Desc:	Mean of the std deviation of the  recorded time domain phone body acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAcc-std()-Z	
+	Desc:	Mean of the std deviation of the  recorded time domain phone body acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tGravityAcc-mean()-X	
+	Desc:	Mean of recorded time domain gravity based acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tGravityAcc-mean()-Y	
+	Desc:	Mean of recorded time domain gravity based acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tGravityAcc-mean()-Z	
+	Desc:	Mean of recorded time domain gravity based acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tGravityAcc-std()-X	
+	Desc:	Mean of the std deviation of the  recorded time domain gravity based acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tGravityAcc-std()-Y	
+	Desc:	Mean of the std deviation of the  recorded time domain gravity based acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tGravityAcc-std()-Z	
+	Desc:	Mean of recorded the std deviation of the  time domain gravity based acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccJerk-mean()-X	
+	Desc:	Mean of recorded time domain phone body jerk acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccJerk-mean()-Y	
+	Desc:	Mean of recorded time domain phone body jerk acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccJerk-mean()-Z	
+	Desc:	Mean of recorded time domain phone body jerk acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccJerk-std()-X	
+	Desc:	Mean of std deviation of the recorded time domain phone body acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccJerk-std()-Y	
+	Desc:	Mean of std deviation of the recorded time domain phone body acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccJerk-std()-Z	
+	Desc:	Mean of std deviation of the recorded time domain phone body acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyro-mean()-X	
+	Desc:	Mean of recorded time domain phone gyroscope average value in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyro-mean()-Y	
+	Desc:	Mean of recorded time domain phone gyroscope average value in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyro-mean()-Z	
+	Desc:	Mean of recorded time domain phone gyroscope average value in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyro-std()-X	
+	Desc:	Mean of the std deviation of the recorded time domain phone gyroscope average value in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyro-std()-Y	
+	Desc:	Mean of the std deviation of the recorded time domain phone gyroscope average value in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyro-std()-Z	
+	Desc:	Mean of the std deviation of the recorded time domain phone gyroscope average value in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroJerk-mean()-X	
+	Desc:	Mean of recorded time domain phone gyroscope average jerk acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroJerk-mean()-Y	
+	Desc:	Mean of recorded time domain phone gyroscope average jerk acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroJerk-mean()-Z	
+	Desc:	Mean of recorded time domain phone gyroscope average jerk acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroJerk-std()-X	
+	Desc:	Mean of the std deviation of the recorded time domain phone gyroscope average jerk acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroJerk-std()-Y	
+	Desc:	Mean of the std deviation of the recorded time domain phone gyroscope average jerk acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroJerk-std()-Z	
+	Desc:	Mean of the std deviation of the recorded time domain phone gyroscope average jerk acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccMag-mean()	
+	Desc:	Mean of recorded time domain phone body acceleration magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccMag-std()	
+	Desc:	Mean of the std deviation of the recorded time domain phone body acceleration magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tGravityAccMag-mean()	
+	Desc:	Mean of recorded time domain phone gravity based acceleration magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tGravityAccMag-std()	
+	Desc:	Mean of the std deviation of the recorded time domain phone gravity based acceleration magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccJerkMag-mean()	
+	Desc:	Mean of recorded time domain phone body jerk acceleration magnitude
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyAccJerkMag-std()	
+	Desc:	Mean of the std deviation of the recorded time domain phone body jerk acceleration magnitude
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroMag-mean()	
+	Desc:	Mean of recorded time domain phone body gyroscope magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroMag-std()	
+	Desc:	Mean of the std deviation of the recorded time domain phone body gyroscope magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroJerkMag-mean()	
+	Desc:	Mean of recorded time domain phone body gyroscope jerk magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_tBodyGyroJerkMag-std()	
+	Desc:	Mean of the std deviation of the recorded time domain phone body gyroscope jerk magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAcc-mean()-X
+	Desc:	Mean of recorded frequency domain phone body acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+	
+Mean_Of_fBodyAcc-mean()-Y	
+	Desc:	Mean of recorded frequency domain phone body acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAcc-mean()-Z	
+	Desc:	Mean of recorded frequency domain phone body acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAcc-std()-X	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone body acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAcc-std()-Y	
+	Desc:	Mean of the std deviation of the  recorded frequency domain phone body acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAcc-std()-Z	
+	Desc:	Mean of the std deviation of the  recorded frequency domain phone body acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fGravityAcc-mean()-X	
+	Desc:	Mean of recorded frequency domain gravity based acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fGravityAcc-mean()-Y	
+	Desc:	Mean of recorded frequency domain gravity based acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fGravityAcc-mean()-Z	
+	Desc:	Mean of recorded frequency domain gravity based acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fGravityAcc-std()-X	
+	Desc:	Mean of the std deviation of the  recorded frequency domain gravity based acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fGravityAcc-std()-Y	
+	Desc:	Mean of the std deviation of the  recorded frequency domain gravity based acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fGravityAcc-std()-Z	
+	Desc:	Mean of recorded the std deviation of the  frequency domain gravity based acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccJerk-mean()-X	
+	Desc:	Mean of recorded frequency domain phone body jerk acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccJerk-mean()-Y	
+	Desc:	Mean of recorded frequency domain phone body jerk acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccJerk-mean()-Z	
+	Desc:	Mean of recorded frequency domain phone body jerk acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccJerk-std()-X	
+	Desc:	Mean of std deviation of the recorded frequency domain phone body acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccJerk-std()-Y	
+	Desc:	Mean of std deviation of the recorded frequency domain phone body acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccJerk-std()-Z	
+	Desc:	Mean of std deviation of the recorded frequency domain phone body acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyro-mean()-X	
+	Desc:	Mean of recorded frequency domain phone gyroscope average value in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyro-mean()-Y	
+	Desc:	Mean of recorded frequency domain phone gyroscope average value in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyro-mean()-Z	
+	Desc:	Mean of recorded frequency domain phone gyroscope average value in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyro-std()-X	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone gyroscope average value in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyro-std()-Y	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone gyroscope average value in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyro-std()-Z	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone gyroscope average value in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroJerk-mean()-X	
+	Desc:	Mean of recorded frequency domain phone gyroscope average jerk acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroJerk-mean()-Y	
+	Desc:	Mean of recorded frequency domain phone gyroscope average jerk acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroJerk-mean()-Z	
+	Desc:	Mean of recorded frequency domain phone gyroscope average jerk acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroJerk-std()-X	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone gyroscope average jerk acceleration in the X-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroJerk-std()-Y	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone gyroscope average jerk acceleration in the Y-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroJerk-std()-Z	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone gyroscope average jerk acceleration in the Z-Axis
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccMag-mean()	
+	Desc:	Mean of recorded frequency domain phone body acceleration magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccMag-std()	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone body acceleration magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fGravityAccMag-mean()	
+	Desc:	Mean of recorded frequency domain phone gravity based acceleration magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fGravityAccMag-std()	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone gravity based acceleration magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccJerkMag-mean()	
+	Desc:	Mean of recorded frequency domain phone body jerk acceleration magnitude
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyAccJerkMag-std()	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone body jerk acceleration magnitude
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroMag-mean()	
+	Desc:	Mean of recorded frequency domain phone body gyroscope magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroMag-std()	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone body gyroscope magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroJerkMag-mean()	
+	Desc:	Mean of recorded frequency domain phone body gyroscope jerk magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
+Mean_Of_fBodyGyroJerkMag-std()	
+	Desc:	Mean of the std deviation of the recorded frequency domain phone body gyroscope jerk magnitude mean
+	Range:	[-1, 1]
+	Units:	(mm)/(s^2) (normalised)
+
