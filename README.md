@@ -2,6 +2,8 @@
 
 ## Notes
 
+* To read the data into a variable, place in working directory WITH "UCI HAR Dataset" folder. use read.table("smartPhoneAccelData.txt", sep=" ", header=TRUE, stringsAsFactors=TRUE)
+
 * This repo produces a wide-format dataset. Each column contains a unique variable (subject, activity, ..79 mean/std variables..). Each row contains exactly one averaged record.
 
 * Any variable expressing a mean or standard deviation is to be included due to the specification. In the real world, a 5 minute call to the client would be able to clarify exactly which fields are required. With that unavailable, it is better to over deliver than to waste the clients time sourcing additional data. 
